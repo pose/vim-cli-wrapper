@@ -1,0 +1,39 @@
+{
+  "name": "vim-cli-wrapper",
+  "version": "0.0.1",
+  "description": "A wrapper over vim executable for friendly project editing.",
+  "main": "index.js",
+  "dependencies": {
+    "remote-vim": "^0.0.2",
+    "uuid": "^1.4.1"
+  },
+  "devDependencies": {
+    "mockuire": "^0.1.0"
+  },
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "author": "Alberto Pose <albertopose@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "edit": "./cli.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "mvim",
+    "vim",
+    "edit",
+    "cli",
+    "vim-wrapper"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pose/vim-cli-wrapper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pose/vim-cli-wrapper/issues"
+  },
+  "homepage": "https://github.com/pose/vim-cli-wrapper"
+}
