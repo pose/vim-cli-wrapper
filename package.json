@@ -4,7 +4,7 @@
   "description": "A wrapper over vim executable for friendly project editing.",
   "main": "index.js",
   "dependencies": {
-    "remote-vim": "^0.0.2",
+    "remote-vim": "^0.0.4",
     "uuid": "^1.4.1"
   },
   "devDependencies": {
